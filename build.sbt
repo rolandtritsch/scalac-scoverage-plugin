@@ -60,6 +60,7 @@ inThisBuild(
     ),
     scalaVersion := defaultScala213,
     versionScheme := Some("early-semver"),
+    version := "2.1.0-SNAPSHOT",
     Test / fork := false,
     Test / publishArtifact := false,
     Test / parallelExecution := false,
